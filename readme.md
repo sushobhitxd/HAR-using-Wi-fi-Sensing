@@ -42,8 +42,8 @@ Supported Activity Classes:
 
 1. *Installation*
 
->git clone https://github.com/sushobhitxd/HAR-using-Wi-fi-Sensing.git
->cd HAR-using-Wi-fi-Sensing
+>git clone https://github.com/sushobhitxd/HAR-using-Wi-fi-Sensing.git /n
+>cd HAR-using-Wi-fi-Sensing /n
 >pip install -r requirements.txt
 
 2. *Launching the Dashboard*
