@@ -1,6 +1,9 @@
 # **Human Activity Recognition (HAR) using Wi-Fi Sensing**
 
-A device-free Human Activity Recognition system that utilizes Wi-Fi Channel State Information (CSI) signals to detect and classify human movements. By analyzing signal perturbations caused by motion, this project provides a privacy-preserving, non-invasive alternative to camera-based monitoring systems.
+A device-free Human Activity Recognition system that utilizes Wi-Fi Channel State Information (CSI) signals to detect and classify human movements. 
+By analyzing signal perturbations caused by motion, this project provides a privacy-preserving, non-invasive alternative to camera-based monitoring systems.
+
+
 **🚀 Key Features**
 
     Hybrid Deep Learning Architecture: Combines 1D CNN for spatial feature extraction (subcarrier correlations) and LSTM for temporal sequence learning.
@@ -15,6 +18,7 @@ A device-free Human Activity Recognition system that utilizes Wi-Fi Channel Stat
 
     High Performance: Achieves ~90% accuracy on the UT-HAR benchmark dataset.
 
+
 **🛠️ Tech Stack**
 
     Language: Python 3.8+
@@ -25,6 +29,7 @@ A device-free Human Activity Recognition system that utilizes Wi-Fi Channel Stat
 
     Interface: Streamlit, Matplotlib
 
+
 **📊 Dataset & Classification**
 
 The system is trained on the UT-HAR (University of Toronto) dataset, which includes time-series CSI amplitude and phase data collected via Intel 5300 NIC.
@@ -34,19 +39,19 @@ Supported Activity Classes:
     🏃 Run | 🚶 Walk | 🛌 Lie Down | ⚠️ Fall | 🧺 Pick Up | 🪑 Sit Down | 🧍 Stand Up
 
 **💻 Usage**
-1. *Installation*
-Bash
 
-git clone https://github.com/sushobhitxd/HAR-using-Wi-fi-Sensing.git
-cd HAR-using-Wi-fi-Sensing
-pip install -r requirements.txt
+1. *Installation*
+
+>git clone https://github.com/sushobhitxd/HAR-using-Wi-fi-Sensing.git
+>cd HAR-using-Wi-fi-Sensing
+>pip install -r requirements.txt
 
 2. *Launching the Dashboard*
-Bash
 
-streamlit run app.py
+> streamlit run app.py
 
 Access the interface at http://localhost:8501.
+
 3. *Inference Modes*
 
     Simulation Mode: Select a pre-recorded sample (e.g., Test_Walk_01.csv) from the sidebar to visualize how the model processes signals and predicts activities in real-time.
